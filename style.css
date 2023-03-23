@@ -1,0 +1,15 @@
+.respuesta{ 
+    background: #2D2D2D ;
+    height: 0px;
+    transition: height 0.8s linear, margin-top 1s linear, color 0.5s ease;
+    color: transparent;
+    margin-top: -20px;
+
+}
+
+.pregunta:hover + .respuesta{ 
+    height: 160px;
+    color: white;
+    margin-top: -33px;
+} 
+

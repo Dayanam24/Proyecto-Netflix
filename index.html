@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="Imagenes/icono.ico">
+    <title>Netflix Venezuela: Ve series online, ve pelìculas online netflix.com</title>
+</head>
+<body class="flex flex-col w-full bg-[#232323] gap-2">
+    <style>
+        *{
+            box-sizing: border-box; 
+            margin: 0px; 
+            top: 0px;
+        }
+    </style>
+
+<!-- Caja 1 -->
+    <section class="bg-[url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/5a0ee99b-9115-4ef8-b329-8ae9d7a9e340/VE-es-20230313-popsignuptwoweeks-perspective_alpha_website_medium.jpg)] w-[100%] bg-cover h-[100vh]">
+        <div class="flex flex-col w-[100%] h-[100%] justify-around bg-gradient-to-b from-black/90 via-black/25 to-black/90">
+
+            <nav class="flex justify-between px-[150px]">
+                <img class="w-[150px] h-[50px]" src="Imagenes/Logonetflix.png" alt="Logo">
+                <div class="flex gap-5">
+                    <select class="h-[35px] w-[120px] px-[6px] rounded-[8px] bg-transparent text-white border-[2px] border-white border-solid text-center" name="Idioma">
+                        <option value="Español">Español</option>
+                        <option value="Ingles">Ingles</option>
+                    </select>
+
+                    <a href="https://www.netflix.com/ve/login" target="_blank">
+                        <button class="text-white rounded px-[15px] py-[5px] bg-[#E50914] hover:bg-red-800">Iniciar sesiòn</button>
+                    </a>
+                </div>
+            </nav>
+
+            <main class="flex flex-col w-[100%] h-[450px] justify-center items-center gap-4">
+                <h1 class="font-['Noto Sans Lao'] text-white font-[900] text-[50px] text-center">
+                    Películas y series ilimitadas y mucho más
+                </h1>
+
+                <p class="font-['Noto Sans Lao'] text-white font-[400] text-[23px] text-center">
+                    Planes desde USD3,99 al mes.
+                </p>
+
+                <p class="font-['Noto Sans Lao'] text-white font-[400] text-[21px] text-center">
+                    ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+                </p>
+
+                <div class="flex gap-3">
+                    <input class="w-[400px] h-[55px] pl-4 text-lg bg-black/40 border-[1px] border-[#BBB8B8] border-solid rounded-[2px]" type="text" placeholder="Email">
+                    <a href="https://www.netflix.com/ve/" target="_blank">
+                        <button class="w-[200px] h-[55px] font-['Noto Sans Lao'] text-white font-[700] text-[25px] text-center rounded px-[15px] py-[5px]  bg-[#E50914] hover:bg-red-800">Comenzar></button>
+                    </a>
+
+                </div>
+
+            </main>
+        </div>
+    </section>
+
+<!-- Caja 2 -->
+    <section class="grid grid-cols-2 w-[100%] h-[500px] bg-[black] px-[150px]">
+        <div class="flex flex-col ml-[50px] h-[440px] justify-center col-span-1">
+
+            <h1 class="font-['Noto Sans Lao'] text-white font-[650] text-[48px]">
+                Disfruta en tu TV
+            </h1>
+
+            <p class="font-['Noto Sans Lao'] text-white font-[450] text-[22px]">
+                Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.
+            </p>
+
+        </div>
+        
+        <div class="relative col-span-1 flex justify-center items-center">
+            <img class="flex flex-col z-10" src="Imagenes/download1.png" alt="Video1">
+            <video class="absolute top-[100px]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"></video>
+        </div>
+        
+    </section>
+
+<!-- Caja 3 -->
+    <section class="grid grid-cols-2 w-[100%] h-[500px] bg-[black] px-[150px]">
+        <div class="relative">
+            <img src="Imagenes/download2.jpg" alt="fondo">
+            <div class="absolute flex w-[300px] h-[80px] mt-[280px] ml-[110px] z-10 rounded-lg gap-2 border bg-black justify-between items-center px-1">
+                <img class="h-[70px] ml-[10px]" src="Imagenes/download4.png" alt="img1">
+                <div class="flex flex-col">
+                    <p class="text-white">Stranger Things</p>
+                    <p class="text-blue-700">Descargando...</p>
+                </div>
+                <img class="h-[70px]" src="Imagenes/download-icon.gif" alt="img2">
+            </div>
+        </div>
+
+        <div class="flex flex-col ml-[50px] h-[440px] justify-center col-span-1">
+            <h1 class="font-['Noto Sans Lao'] text-white font-[650] text-[48px]">
+                Descarga tus series para verlas offline
+            </h1>
+
+            <p class="font-['Noto Sans Lao'] text-white font-[450] text-[22px]">
+                Guarda tu contenido favorito y tendrás siempre algo para ver.
+            </p>
+        </div>
+
+    </section>
+
+<!-- Caja 4 -->
+    <section class="grid grid-cols-2 w-[100%] h-[500px] bg-[black] px-[150px]">
+        <div class="flex flex-col ml-[50px] h-[440px] justify-center col-span-1">
+
+            <h1 class="font-['Noto Sans Lao'] text-white font-[650] text-[48px]">
+                Disfruta donde quieras
+            </h1>
+
+            <p class="font-['Noto Sans Lao'] text-white font-[450] text-[22px]">
+                Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo adicional.
+            </p>
+
+        </div>
+
+        <div class="relative col-span-1 flex justify-center items-center">
+            <img class="flex flex-col z-10" src="Imagenes/download3.png" alt="Video3">
+            <video class="absolute top-[100px] w-[300px]" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4"></video>
+        </div>
+
+    </section>
+    
+<!-- Caja 5 -->
+    <section class="grid grid-cols-2 w-[100%] h-[500px] bg-[black] px-[150px]">
+
+        <div>
+            <img class="mt-[50px]" src="Imagenes/download5.png" alt="Niños">
+        </div>
+
+        <div class="flex flex-col ml-[50px] h-[440px] justify-center">
+
+            <h1 class="font-['Noto Sans Lao'] text-white font-[650] text-[48px]">
+                Crea perfiles para niños
+            </h1>
+
+            <p class="font-['Noto Sans Lao'] text-white font-[450] text-[22px]">
+                Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.
+            </p>
+
+        </div>
+
+    </section>
+
+<!-- Caja 6 -->
+    <section class="flex flex-col w-[100%] h-[1000px] bg-[black] px-[150px]">
+        <div>
+            <h1 class="font-['Noto Sans Lao'] text-white font-[900] text-[50px] text-center mt-[50px]">
+                Preguntas frecuentes
+            </h1>
+        </div>
+
+        <div class="flex flex-col gap-3">
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] mt-[20px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Qué es Netflix?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet.
+
+                    Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!</p>                
+                </div> 
+            </div>
+            
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Cuánto cuesta Netflix?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa plana mensual. Planes desde USD3,99 hasta USD7,99 al mes. Sin costos adicionales ni contratos.</p>                
+                </div> 
+            </div>
+
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Dónde puedo ver Netflix?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos.</p>                
+                </div> 
+            </div>
+
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Cómo cancelo?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+                        
+                        </p>                
+                </div> 
+            </div>
+
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Qué puedo ver en Netflix?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
+                        </p>                
+                </div> 
+            </div>
+
+            <div>
+                <div class=" flex items-center bg-[#2D2D2D] h-[85px] hover:bg-[#4E4E4E] pregunta">
+                    <p class="font-['Noto Sans Lao'] text-white font-[400] text-[25px] ml-[20px]">¿Es bueno Netflix para los niños?</p>                
+                </div>
+
+                <div   div class="respuesta">
+                    <p class="font-['Noto Sans Lao'] font-[400] text-[25px] mt-[20px] ml-[20px]">La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio.
+                        </p>                
+                </div> 
+            </div>>
+        </div>
+
+        <div>
+            <p class="font-['Noto Sans Lao'] text-white font-[400] text-[21px] text-center pt-[50px]">
+                ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+            </p>
+        </div>
+        
+
+        <div class="flex gap-3 pt-[20px] justify-center">
+            <input class="w-[400px] h-[55px] pl-4 text-lg bg-[#1C2432] border-[1px] border-[#2BB871] border-solid rounded-[2px]" type="text" placeholder="Email">
+            <a href="https://www.netflix.com/signup/registration?locale=es-VE" target="_blank">
+                <button class="w-[200px] h-[55px] font-['Noto Sans Lao'] text-white font-[700] text-[25px] text-center rounded px-[15px] py-[5px]  bg-[#E50914] hover:bg-red-800">Comenzar></button>
+            </a>
+        </div>
+
+    </section>
+
+<!-- Caja 7 -->
+    <footer class="w-[100%] h-[500px] bg-[black] px-[150px]">
+        <a href="">
+            <p class="font-['Noto Sans Lao'] text-white text-[15px] mt-[50px]">¿Preguntas? Llama al 1 (408) 469-4467 (USA)</p>   
+        </a>
+
+        <div class="grid grid-cols-3">
+            <div class="mt-[30px]">
+                <a href="https://help.netflix.com/es-es/node/412" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid active:text-red-800 text-[13px]">Preguntas frecuentes</p>
+                </a>
+
+                <a href="https://www.netflix.com/ve/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Cuenta</p>
+                </a>
+
+                <a href="https://jobs.netflix.com/" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Empleo</p>
+                </a>
+
+                <a href="https://help.netflix.com/legal/privacy" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Privacidad</p>
+                </a>
+
+                <a href="https://help.netflix.com/es-es/contactus" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Contáctanos</p>
+                </a>
+
+                <a href="https://www.netflix.com/ve/browse/genre/839338" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Solo en Netflix</p>
+                </a>
+            </div>
+            
+            <div class="mt-[30px]">
+                <a href="https://help.netflix.com/legal/giftcardandbalanceterms" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid active:text-red-800 text-[13px]">Términos de las tarjetas de regalo</p>
+                </a>
+
+                <a href="https://media.netflix.com/es_es/" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Prensa</p>
+                </a>
+
+                <a href="https://devices.netflix.com/en/" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Formas de ver</p>
+                </a>
+
+                <a href="https://www.netflix.com/ve/#" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Preferencias de cookies</p>
+                </a>
+
+                <a href="https://fast.com/es/" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Prueba de velocidad</p>
+                </a>
+            </div>
+
+            <div class="mt-[30px]">
+                <a href="https://help.netflix.com/es-es/" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid active:text-red-800 text-[13px]">Centro de ayuda</p>
+                </a>
+
+                <a href="https://ir.netflix.net/ir-overview/profile/default.aspx" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Relaciones con inversionistas</p>
+                </a>
+
+                <a href="https://help.netflix.com/legal/termsofuse" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Términos de uso</p>
+                </a>
+
+                <a href="https://help.netflix.com/legal/corpinfo" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Información corporativa</p>
+                </a>
+
+                <a href="https://help.netflix.com/legal/notices" target="_blank">
+                    <p class="font-['Noto Sans Lao'] text-white underline decoration-solid mt-[10px] active:text-red-800 text-[13px]">Avisos legales</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-[30px]">
+            <select class="h-[35px] w-[120px] px-[6px] rounded-[8px] bg-transparent text-white border-[2px] border-white border-solid text-center" name="Idioma">
+                <option value="Español">Español</option>
+                <option value="Ingles">Ingles</option>
+            </select>
+
+            <p class="font-['Noto Sans Lao'] text-white text-[13px] mt-[20px]">Netflix Venezuela</p>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
